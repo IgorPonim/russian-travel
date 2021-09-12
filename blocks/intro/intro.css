@@ -1,7 +1,4 @@
-@import url('../intro/__title/intro__title.css');
-@import url('../intro/__text/intro__text.css');
-@import url('../intro/__list/intro__list.css');
-@import url('../intro/__list/_thin/intro__list_thin.css');
+
 .intro{
     max-width: 53.9%;
     margin-left: 11.56%;
