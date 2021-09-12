@@ -1,0 +1,11 @@
+@import url('../cover/__train-photo/cover__train-photo.css');
+@import url('../cover/__overlay/cover__overlay.css');
+@import url('../cover/__title/cover__title.css');
+@import url('../cover/__subtitle/cover__subtitle.css');
+
+.cover{
+     max-width: fit-content;
+    position: relative;
+    max-width: 1184px;
+    margin: 0 auto;
+    }

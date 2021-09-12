@@ -1,0 +1,11 @@
+.cover__train-photo {
+    background-image: url('../../cover/__train-photo/cover-trains.jpg');
+    position: relative;
+    
+    background-size: cover;
+    display: block;
+    background-position: center;
+    background-position: center;
+    text-decoration: none;
+   
+}
