@@ -1,6 +1,7 @@
 ﻿@import url('../vendor/normalize.css');
+@import url('../vendor/fonts.css');
 @import url('../blocks/page/page.css');
-@import url('../blocks/page/header/header.css');
+@import url('../blocks/header/header.css');
 @import url('../blocks/lead/lead.css');
 @import url('../blocks/intro/intro.css');
 @import url('../blocks/photo-grid/photo-grid.css');
@@ -9,32 +10,25 @@
 @import url('../blocks/cover/cover.css');
 @import url('../blocks/footer/footer.css');
 @import url('../vendor/fonts.css');
-
 @import url('../blocks/cover/__train-photo/cover__train-photo.css');
 @import url('../blocks/cover/__overlay/cover__overlay.css');
 @import url('../blocks/cover/__title/cover__title.css');
 @import url('../blocks/cover/__subtitle/cover__subtitle.css');
-
 @import url('../blocks/footer/__links/footer__links.css');
 @import url('../blocks/footer/__link/footer__link.css');
 @import url('../blocks/footer/__copyright/footer__copyright.css');
-
 @import url('../blocks/intro/__title/intro__title.css');
 @import url('../blocks/intro/__text/intro__text.css');
 @import url('../blocks/intro/__list/intro__list.css');
 @import url('../blocks/intro/__span/intro__span.css');
-
 @import url('../blocks/lead/__title/lead__title.css');
 @import url('../blocks/lead/__subtitle/lead__subtitle.css');
 @import url('../blocks/lead/__image/lead__image.css');
 @import url('../blocks/lead/__caption/lead__caption.css');
-
 @import url('../blocks/header/__logo/header__logo.css');
 @import url('../blocks/header/__lang-link/header__lang-link.css');
 @import url('../blocks/header/__lang-link/_pushed/header__lang-link_pushed.css');
-
 @import url('../blocks/photo-grid/__image/photo-grid__image.css');
-
 @import url('../blocks/place/__title/place__title.css');
 @import url('../blocks/place/__image/place__image.css');
 @import url('../blocks/place/__website/place__website.css');
@@ -43,11 +37,4 @@
 @import url('../blocks/place/__paragraph/place__paragraph.css');
 @import url('../blocks/place/__textarea/place__textarea.css');
 @import url('../blocks/place/__link/_pushed/place__link_pushed.css');
-
-
-
-@import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', sans-serif; }
-@supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif; }
-}
+@import url('../blocks/header/__lang-links/header__lang-links.css');

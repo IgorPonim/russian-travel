@@ -1,4 +1,4 @@
-.place__title{
+.place__title {
     width: 460px;
     font-family: Inter;
     font-style: normal;
@@ -6,39 +6,52 @@
     font-size: 72px;
     line-height: 76px;
     color: #FFFFFF;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     display: inline;
- }
- @media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 1024px) {
     .place__title {
         max-width: 440px;
-        }
+    }
 }
 
 @media screen and (max-width: 768px) {
     .place__title {
-    max-width: 340px;
-    font-size: 42px;
-    line-height: 46px;
-    max-height: 92px;
-    width: 340px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 900;
-    
+        max-width: 340px;
+        font-size: 42px;
+        line-height: 46px;
+        max-height: 92px;
+        width: 90%;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
     }
 }
 
 @media screen and (max-width: 320px) {
     .place__title {
-    max-width: 288px;
-    margin:-30px 0 0 16px;
-    max-height: 35px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 35px;
+        max-width: 288px;
+        margin: -30px 0 0 16px;
+        max-height: 35px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    .place__title {
+        max-width: 288px;
+        margin: -30px 0 0 16px;
+        max-height: 35px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 35px;
     }
 }

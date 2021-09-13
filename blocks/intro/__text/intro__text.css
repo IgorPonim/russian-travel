@@ -6,27 +6,26 @@
     font-size: 16px;
     line-height: 169%;
     color: #FFFFFF;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro__text {
+        line-height: 170%;
     }
-    
-    @media screen and (max-width: 1024px) {
-        .intro__text {
-            line-height: 170%;
-           
-        }
+}
+
+@media screen and (max-width: 768px) {
+    .intro__text {
+        max-width: 720px;
     }
-    @media screen and (max-width: 768px) {
-        .intro__text {
-            max-width: 720px;
-           
-        }
+}
+
+@media screen and (max-width: 320px) {
+    .intro__text {
+        max-width: 288px;
+        max-height: 520px;
+        line-height: 163%;
     }
-    
-    @media screen and (max-width: 320px) {
-        .intro__text {
-            max-width: 288px;
-            max-height: 520px;
-            line-height: 163%;
-        }}
-    
+}

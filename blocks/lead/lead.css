@@ -1,6 +1,6 @@
-
-.lead{
+.lead {
     display: flex;
     align-items: center;
     flex-direction: column;
- }
+    box-sizing: border-box;
+}

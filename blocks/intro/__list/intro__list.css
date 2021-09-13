@@ -1,4 +1,4 @@
-.intro__list{
+.intro__list {
     max-width: 690px;
     max-height: 90px;
     font-family: Inter;
@@ -9,25 +9,24 @@
     color: #FFFFFF;
     list-style-type: none;
     padding: 0;
-    margin:33px 0 0 0;
-    }
+    margin: 33px 0 0 0;
+}
 
-    
-    @media screen and (max-width: 1024px) {
-        .intro__list {
-            margin-top: 27px;
-           
-        }
+@media screen and (max-width: 1024px) {
+    .intro__list {
+        margin-top: 27px;
     }
-    @media screen and (max-width: 768px) {
-        .intro__list {
-            max-width: 720px;
-           
-        }
+}
+
+@media screen and (max-width: 768px) {
+    .intro__list {
+        max-width: 720px;
     }
-    
-    @media screen and (max-width: 320px) {
-        .intro__list {
-            max-width: 288px;
-            margin-top: 34px;
-        }}
+}
+
+@media screen and (max-width: 320px) {
+    .intro__list {
+        max-width: 288px;
+        margin-top: 34px;
+    }
+}

@@ -1,4 +1,4 @@
-.cover__title{
+.cover__title {
     max-width: 560px;
     max-height: 152px;
     font-style: normal;
@@ -9,16 +9,24 @@
     color: #FFFFFF;
     text-decoration: none;
     z-index: 10;
-    margin:0;
-    padding:0;
-    
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 320px) {
+    .cover__title {
+        line-height: 35px;
+        max-width: 288px;
+        max-height: 70px;
+        font-size: 32px;
     }
-    @media screen and (max-width: 320px) {
-        .cover__title {
-            
-            line-height: 35px;
-            max-width: 288px;
-            max-height: 70px;
-            font-size: 32px;
-        }
+}
+
+@media screen and (min-width: 321px) and (max-width: 505px) {
+    .cover__title {
+        line-height: 55px;
+        max-width: 100%;
+        max-height: auto;
+        font-size: 50px;
     }
+}

@@ -1,18 +1,32 @@
-.places{
-    width: 76.875%;
-    height: auto;
-    margin: 92px auto;
-    
- }
- @media screen and (max-width: 1024px) {
-    .places {
-       width: 928px;
- }}
- @media screen and (max-width: 768px) {
-    .places {
-        width: 720px;
- }}
- @media screen and (max-width: 320px) {
-    .places {
-        width: 320px;
- }}
+.places {
+   max-width: 76.875%;
+   height: auto;
+   margin: 92px auto;
+}
+
+@media screen and (max-width: 1024px) {
+   .places {
+      max-width: 928px;
+      width: 90.625%;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .places {
+      max-width: 720px;
+      width: 93.75%;
+   }
+}
+
+@media screen and (max-width: 320px) {
+   .places {
+      max-width: 320px;
+      width: 93.75%;
+   }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+   .places {
+      max-width: 95%;
+   }
+}
