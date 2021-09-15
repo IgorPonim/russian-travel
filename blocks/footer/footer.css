@@ -6,7 +6,7 @@
     flex-direction: row;
     margin: 92px auto auto auto;
     justify-content: space-between;
-    max-height: max-content;
+    max-height: 100%;
     flex-wrap: wrap;
 }
 
@@ -25,9 +25,10 @@
 
 @media screen and (max-width: 320px) {
     .footer {
-        margin: 64px auto auto auto;
+        margin: 64px 0 auto 0;
         display: grid;
         grid-template-columns: 186px;
         grid-template-rows: 248px;
+        max-width: 100%;
     }
 }

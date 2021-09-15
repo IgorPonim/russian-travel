@@ -1,7 +1,7 @@
 .intro__list {
     max-width: 690px;
-    max-height: 90px;
-    font-family: Inter;
+    max-height: max-content;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 1024px) {
     .intro__list {
-        margin-top: 27px;
+        margin-top: 33px;
     }
 }
 

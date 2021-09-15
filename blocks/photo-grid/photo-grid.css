@@ -9,17 +9,19 @@
 
 @media screen and (max-width: 1024px) {
     .photo-grid {
-        max-width: 90.625%;
+        max-width: 928px;
+        width: 90.63%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .photo-grid {
-        max-width: 93.7%;
+        max-width: 720px;
         margin-bottom: 88px;
         grid-gap: 16px;
         margin: auto;
         padding: 0;
+        width: 93.75%;
     }
 }
 
@@ -29,6 +31,6 @@
         grid-gap: 12px;
         margin-bottom: 64px;
         padding: 0;
-        margin: auto;
+        
     }
 }

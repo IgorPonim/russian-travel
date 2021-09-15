@@ -1,7 +1,7 @@
 .header__lang-links {
     display: grid;
     grid-template-columns: 30px auto;
-    grid-column-gap: 30px;
+    grid-column-gap: 18px;
 }
 
 @media screen and (max-width: 320px) {

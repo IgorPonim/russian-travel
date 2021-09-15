@@ -15,13 +15,16 @@
    .places {
       max-width: 720px;
       width: 93.75%;
+      margin: 90px auto;
    }
 }
 
 @media screen and (max-width: 320px) {
    .places {
       max-width: 320px;
-      width: 93.75%;
+      margin-top: 41px auto;
+      width: 100%;
+      margin: 64px auto 0 auto;
    }
 }
 
