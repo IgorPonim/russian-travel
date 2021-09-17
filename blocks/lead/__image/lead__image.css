@@ -1,6 +1,5 @@
 .lead__image {
     max-width: 76.88%;
-    max-height: auto;
     margin: 0;
 }
 
@@ -8,7 +7,6 @@
     .lead__image {
         width: 90.63%;
         max-width: 928px;
-        min-height: auto;
     }
 }
 

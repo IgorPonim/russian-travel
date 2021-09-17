@@ -7,25 +7,29 @@
     letter-spacing: 1.5px;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin: 8px 0 0 0;
+    margin: 8px auto 0 auto;
     padding: 0;
     opacity: 80%;
-    margin-left: 11.56%;
+    max-width: 984px;
+    width: 76.875%;
     align-self: flex-start;
 }
+
 @media screen and (max-width: 1024px) {
     .lead__caption {
-        margin-left: 4.678%;
+        max-width: 928px;
+        width: 90.625%;
     }
 }
+
 @media screen and (max-width: 768px) {
     .lead__caption {
-        margin-left: 3.125%;
+        width: calc(100vw - 48px);
     }
 }
 
 @media screen and (max-width: 320px) {
     .lead__caption {
-        margin-left: 3.125%;
+        width: calc(100vw - 28px);
     }
 }
