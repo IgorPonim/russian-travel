@@ -13,7 +13,6 @@
     justify-content: center;
     flex-direction: column;
     position: relative;
-    text-decoration: none;
 }
 
 .cover__overlay::before {
