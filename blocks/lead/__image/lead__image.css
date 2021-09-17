@@ -1,12 +1,11 @@
 .lead__image {
-    max-width: 76.88%;
+    max-width: 984px;
     margin: 0;
 }
 
 @media screen and (max-width: 1024px) {
     .lead__image {
         width: 90.63%;
-        max-width: 928px;
     }
 }
 

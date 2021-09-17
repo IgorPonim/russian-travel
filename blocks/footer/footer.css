@@ -12,7 +12,6 @@
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .footer {
-        max-width: 928px;
         width: 90.625%;
     }
 }
@@ -29,6 +28,5 @@
         display: grid;
         grid-template-columns: 186px;
         grid-template-rows: 248px;
-        max-width: 100%;
     }
 }
